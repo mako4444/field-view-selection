@@ -1,0 +1,20 @@
+Copyright (c) 2026 Han Sun. All rights reserved.
+
+This repository is made available so that readers can inspect the code and
+run it to reproduce the experiments reported in the author's PhD thesis.
+Permission is granted to view the code and to run it for that purpose only.
+
+No other rights are granted. Without prior written permission from the
+author, you may not copy, modify, merge, publish, distribute, sublicense or
+sell the code or the accompanying data, in whole or in part, or use them for
+any other purpose, including commercial use.
+
+Datasets, pretrained models and code by third parties that this repository
+refers to are subject to their own licences.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
