@@ -1,7 +1,8 @@
 # field-view-selection
 
 Code for the experiments of Chapter 4, *Using the Field to Select Viewpoints for Localization*, of the
-PhD thesis *Image Detectability as 3D Saliency for Visual Localization* (Han Sun).
+PhD thesis *Image Detectability as 3D Saliency for Visual Localization* (Han Sun). The chapter is based on
+the paper https://arxiv.org/abs/2611.34139.
 
 The experiments evaluate viewpoint selection with an offline replay protocol. Every candidate view of a
 decision is localized once with a fixed 2D-3D localizer (SuperPoint, EPnP-RANSAC); a planner sees only the
@@ -22,7 +23,13 @@ sampling are not bit-identical across machines.
 
 ## Data
 
-Download the data folder of this repository and place its sub-folders under `data/`:
+The data is on Zenodo, https://doi.org/10.5281/zenodo.24573550. From the repository root,
+
+```bash
+bash scripts/download_data.sh
+```
+
+downloads the archives (5.9 GB), checks them and unpacks them into `data/`:
 
 ```
 data/weights/       DetField weights (objects, dense scenes, sparse scenes)
